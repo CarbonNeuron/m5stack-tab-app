@@ -1,5 +1,5 @@
 # TODO: uncomment one of these if you want to support a specifc target by default
-# CONFIG_IDF_TARGET="esp32"
+CONFIG_IDF_TARGET="esp32p4"
 # CONFIG_IDF_TARGET="esp32s2"
 # CONFIG_IDF_TARGET="esp32s3"
 # CONFIG_IDF_TARGET="esp32c3"
