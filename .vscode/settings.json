@@ -8,5 +8,7 @@
   ],
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32p4"
-  }
+  },
+  "idf.flashType": "UART",
+  "editor.formatOnSaveMode": "modifications"
 }

@@ -1,0 +1,7 @@
+dependencies:
+  espp/m5stack-tab5: '>=1.0'
+  idf: '>=5.0'
+description: M5Stack Tab5 Board Support Package (BSP) extensions component in C++ for ESP32-P4
+targets:
+- esp32p4
+version: 1.0.32

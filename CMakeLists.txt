@@ -11,7 +11,7 @@ set(EXTRA_COMPONENT_DIRS
   #       `components/` folder within this repository and update the line below
   #       to point to it.
   #
-  # "components/"
+  "components/M5Extended"
 
   # NOTE: if we didn't use the idf-component-manager to get the espp
   #       dependencies, we could instead have ESPP be a submodule within our
@@ -38,7 +38,7 @@ set(
   # e.g.
   #
   # `idf.py add-dependency "espp/task>=1.0"`
-  "main esptool_py"
+  "main esptool_py esp_psram"
   CACHE STRING
   "List of components to include"
   )
@@ -47,3 +47,6 @@ set(
 project(M5STACK-TAB5-APP)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_POLICY_DEFAULT_CMP0077 NEW)
+
+set(CONFIG_LV_BUILD_EXAMPLES OFF)

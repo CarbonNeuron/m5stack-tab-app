@@ -15,3 +15,7 @@ dependencies:
   #   # All dependencies of `main` are public by default.
   #   public: true
   espp/task: '>=1.0'
+  espp/display_drivers: '>=1.0'
+  espp/display: '>=1.0'
+  espp/pi4ioe5v: '>=1.0'
+  espp/m5stack-tab5: '>=1.0'
