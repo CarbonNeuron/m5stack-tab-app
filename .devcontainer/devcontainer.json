@@ -13,9 +13,12 @@
 			},
 			"extensions": [
 				"espressif.esp-idf-extension",
-				"espressif.esp-idf-web"
+				"espressif.esp-idf-web",
+				"ms-vscode.cpptools"
 			]
 		}
 	},
-	"runArgs": ["--privileged"]
+	"runArgs": [
+		"--privileged"
+	]
 }
