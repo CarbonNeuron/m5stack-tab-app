@@ -43,7 +43,7 @@ set(
   "List of components to include"
   )
 
-# TODO: update this with your project's name
-project(template)
+
+project(M5STACK-TAB5-APP)
 
 set(CMAKE_CXX_STANDARD 20)
